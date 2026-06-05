@@ -24,12 +24,12 @@ jobs:
         run: pip install requests beautifulsoup4 pytz
 
       - name: Run Script
-        run: python Ufc.py
+        run: python noticiasufc.txt
 
       - name: Commit and Push
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add Notícias ufc.txt indice.txt
+          git add noticiasufc.txt indice.txt
           git commit -m "Update NFL" || exit 0
           git push
