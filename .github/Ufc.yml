@@ -24,7 +24,7 @@ jobs:
         run: pip install requests beautifulsoup4 pytz
 
       - name: Run Script
-        run: python atualizar_placar.py
+        run: Ufc.py
 
       - name: Commit and Push
         run: |
