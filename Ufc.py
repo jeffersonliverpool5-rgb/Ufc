@@ -52,7 +52,7 @@ def executar():
         texto = f"{agora} - ERRO AO ACESSAR SITE".upper()
 
     # Salva o resultado final no arquivo apifutebol.txt
-    with open("Notícias ufc.txt", "w", encoding="utf-8") as f:
+    with open("Noticiasufc.txt", "w", encoding="utf-8") as f:
         f.write(texto)
         print(f"Texto gerado: {texto}")
 
